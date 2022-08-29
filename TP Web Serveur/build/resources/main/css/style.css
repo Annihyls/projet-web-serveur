@@ -1,0 +1,70 @@
+html{
+    overflow-y: scroll;
+    color: rgb(46, 43, 71);
+    overflow-x: hidden;
+    height: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+nav{
+    overflow: hidden;
+    background: rgb(0, 0, 0);  
+    position: fixed;
+    width: 100%;
+    opacity: 1;
+    
+}
+
+header{
+    background: rgb(0, 0, 0);  
+    position: static;
+}
+
+header li {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+header li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+    color: white;
+}
+
+body {
+    position:static;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    background: rgb(83, 183, 72, 51%);
+}
+
+#content{
+    display: block;
+}
+
+#eleves, #profs, #gommettes{
+    position:relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-top: 10%;
+    border: 2px solid;
+    padding: 10px 5px 5px 75px;
+    border-radius: 10px;
+    width: 200px;
+}
